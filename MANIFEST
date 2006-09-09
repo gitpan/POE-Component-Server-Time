@@ -1,7 +1,10 @@
 MANIFEST
 README
 Makefile.PL
-Time.pm
+Changes
+lib/POE/Component/Server/Time.pm
 t/1.t
+t/2.t
+t/3.t
 examples/simple-time-server.pl
 META.yml                                 Module meta-data (added by MakeMaker)
