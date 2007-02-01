@@ -1,6 +1,9 @@
 POE::Component::Server::Time
 ============================
 
+1.04	Thu Feb 01 14:50:56 GMT 2007
+	- Makefile.PL fully Module::Install-ified.
+
 1.03	Tue Sep 26 13:45:34 BST 2006
 	- Switched to Module::Install
 
