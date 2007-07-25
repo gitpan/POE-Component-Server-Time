@@ -3,6 +3,8 @@ name 'POE-Component-Server-Time';
 license 'perl';
 author 'Chris Williams <chris@bingosnet.co.uk>';
 version_from 'lib/POE/Component/Server/Time.pm';
+abstract_from 'lib/POE/Component/Server/Time.pm';
+build_requires 'Test::More' => 0.47;
 requires 'Carp'   => 0;
 requires 'Socket' => 0;
 requires 'POE'    => 0.38;
