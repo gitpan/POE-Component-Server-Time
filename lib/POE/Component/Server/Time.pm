@@ -19,7 +19,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 37;
 
-$VERSION = '1.07';
+$VERSION = '1.08';
 
 sub spawn {
   my $package = shift;
@@ -109,7 +109,7 @@ POE::Component::Server::Time - A POE component that implements an RFC 868 Time s
 =head1 DESCRIPTION
 
 POE::Component::Server::Time implements a RFC 868 L<http://www.faqs.org/rfcs/rfc868.html> TCP/UDP Time server, using
-L<POE|POE>. It is a class inherited from L<POE::Component::Server::Echo|POE::Component::Server::Echo>.
+L<POE>. It is a class inherited from L<POE::Component::Server::Echo>.
 
 =head1 METHODS
 
