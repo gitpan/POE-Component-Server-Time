@@ -10,6 +10,7 @@
 package POE::Component::Server::Time;
 
 use strict;
+use warnings;
 use Carp;
 use POE;
 use Socket;
@@ -19,7 +20,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 37;
 
-$VERSION = '1.08';
+$VERSION = '1.10';
 
 sub spawn {
   my $package = shift;

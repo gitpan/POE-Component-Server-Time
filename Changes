@@ -1,6 +1,9 @@
 POE::Component::Server::Time
 ============================
 
+1.10	Thu Apr  3 12:50:55 BST 2008
+	- Kwalitee fixes.
+
 1.08	Fri Jan 18 10:07:49 GMT 2008
 	- Fixed test script naming
 	- Added tcp and udp tests
