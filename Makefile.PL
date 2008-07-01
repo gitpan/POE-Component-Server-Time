@@ -2,6 +2,7 @@ use strict;
 use inc::Module::Install;
 name 'POE-Component-Server-Time';
 license 'perl';
+perl_version '5.0';
 author 'Chris Williams <chris@bingosnet.co.uk>';
 version_from 'lib/POE/Component/Server/Time.pm';
 abstract_from 'lib/POE/Component/Server/Time.pm';

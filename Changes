@@ -1,6 +1,9 @@
 POE::Component::Server::Time
 ============================
 
+1.12	Tue Jul  1 10:02:25 BST 2008
+	- Added LICENSE information
+
 1.10	Thu Apr  3 12:50:55 BST 2008
 	- Kwalitee fixes.
 
